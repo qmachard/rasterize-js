@@ -1,0 +1,21 @@
+{
+  "name": "rasterizejs",
+  "version": "1.0.0",
+  "description": "Converts SVGs to PNGs, PDFs, JPEGs, using PhantomJS",
+  "main": "lib/rasterize.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://gitlab.palpix.com/quentinm/rasterize-js"
+  },
+  "keywords": [
+    "PhantomJS",
+    "SVG",
+    "PNG",
+    "PDF"
+  ],
+  "author": "Quentin Machard <quentin.machard@idix.fr>",
+  "license": "ISC"
+}
