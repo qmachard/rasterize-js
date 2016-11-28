@@ -17,5 +17,9 @@
     "PDF"
   ],
   "author": "Quentin Machard <quentin.machard@idix.fr>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "phantomjs": "^2.1.7",
+    "yargs": "^6.4.0"
+  }
 }
