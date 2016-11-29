@@ -7,7 +7,7 @@ const rasterize = require("..");
 const packageJSON = require("../package.json");
 
 const argv = yargs
-    .usage(`${packageJSON.description}\n\n${packageJSON.name} input.svg ` + `[--output=output.png] [--width=300] [--height=150]`)
+    .usage(`${packageJSON.description}\n\n${packageJSON.name} input.svg ` + `[--output=output.png] [--scale=2]`)
     .option("o", {
         alias: "output",
         type: "string",
@@ -16,7 +16,7 @@ const argv = yargs
     .option("s", {
         alias: "scale",
         type: "string",
-        describe: "The output file width, in pixels"
+        describe: "TThe scale of output"
     })
     .demand(1)
     .help(false)
